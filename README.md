@@ -68,3 +68,6 @@ Funções Coesas e Curtas: A lógica foi dividida em funções pequenas, cada um
 Princípio DRY (Don't Repeat Yourself): Evitou-se a duplicação de código para garantir que a lógica seja mantida em um único lugar, facilitando futuras alterações e reduzindo o risco de bugs.
 
 Validação Básica: Implementadas validações básicas para os dados de entrada no Front-end para garantir uma melhor experiência do usuário.
+
+Testagem da Aplicação
+Para garantir o funcionamento correto do CRUD, a aplicação foi testada manualmente exaustivamente, verificando a criação, leitura, atualização e exclusão de tarefas em diferentes cenários de uso do localStorage. Devido à natureza simplificada do projeto (apenas Front-end com persistência local), não foram implementados testes automatizados formais com frameworks específicos de teste JavaScript.
