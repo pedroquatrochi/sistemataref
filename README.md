@@ -71,3 +71,6 @@ Validação Básica: Implementadas validações básicas para os dados de entrad
 
 Testagem da Aplicação
 Para garantir o funcionamento correto do CRUD, a aplicação foi testada manualmente exaustivamente, verificando a criação, leitura, atualização e exclusão de tarefas em diferentes cenários de uso do localStorage. Devido à natureza simplificada do projeto (apenas Front-end com persistência local), não foram implementados testes automatizados formais com frameworks específicos de teste JavaScript.
+
+MEU GITHUB:
+https://github.com/pedroquatrochi/sistemataref?tab=readme-ov-file
