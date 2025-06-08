@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Gerenciamento de Tarefas</title>
+</head>
+<body>
+    <h2>Lista de Tarefas</h2>
+    <div class="principal">
+        <form id="formulario">
+            <div class="container-form">
+                <fieldset>
+                    <h1>Cadastro de Tarefa</h1>
+                    <input type="hidden" id="itaskid"> 
+
+                    <div class="cont">
+                        <label for="ititle">Título da Tarefa*</label><br>
+                        <input type="text" name="ititle" id="ititle" required>
+                    </div>   
+                    <div class="cont">
+                        <label for="idescription">Descrição</label><br>
+                        <textarea name="idescription" id="idescription"></textarea>
+                    </div>
+                    <div class="cont">  
+                        <label for="istatus">Status*</label><br>
+                        <select name="istatus" id="istatus" required>
+                            <option value="pending">Pendente</option>
+                            <option value="in_progress">Em Andamento</option>
+                            <option value="completed">Concluída</option>
+                        </select>
+                    </div>
+                    <div class="cont">    
+                        <label for="iduedate">Prazo</label><br>
+                        <input type="date" name="iduedate" id="iduedate">
+                    </div> 
+                    <div class="cont botoes-form">      
+                        <button type="submit" class="custom-button">Salvar Tarefa</button>
+                        <button type="button" class="custom-button cancelar-edicao" style="display:none;">Cancelar Edição</button>
+                    </div>
+                </fieldset>     
+            </div>
+        </form>
+
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Descrição</th>
+                    <th>Status</th>
+                    <th>Prazo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
